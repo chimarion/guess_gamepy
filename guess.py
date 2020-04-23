@@ -21,7 +21,7 @@ while play:
             else:
                 print("That was wrong")
             tries -= 1
-            print("You have " + str(tries) + " guesses left!")
+            print("You have " + str(tries) + " attempt left!")
             if tries == 0:
                 print("Game Over!")
 
@@ -37,7 +37,7 @@ while play:
             else:
                 print("That was wrong")
             tries -= 1
-            print("You have " + str(tries) + " guesses left!")
+            print("You have " + str(tries) + " attempt left!")
             if tries == 0:
                 print("Game Over!")
                
